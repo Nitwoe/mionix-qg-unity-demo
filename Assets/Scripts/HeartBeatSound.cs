@@ -50,7 +50,7 @@ public class HeartBeatSound : MonoBehaviour {
         }
 	}
 
-    void Destroy()
+    void OnDestroy()
     {
         Mionix.Disconnect();
     }
